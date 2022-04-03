@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latihanflutter/view/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,8 +24,9 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
+        fontFamily: 'Poppins'
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const SplashScreen(),
     );
   }
 }
